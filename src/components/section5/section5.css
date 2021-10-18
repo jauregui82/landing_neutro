@@ -55,12 +55,12 @@
 .bigSoto-s5{
   position: absolute;
   max-width: 280px;
-  left: 151px;
+  left: -151px;
 }
 .neutroShorty-s5{
   position: absolute;
   max-width: 233px;
-  right: 72px;
+  right: -160px;
   bottom: -124px;
   z-index: 1;
 }

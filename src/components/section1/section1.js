@@ -1,3 +1,4 @@
+import React from "react";
 import { Grid } from "@mui/material";
 import "src/components/section1/section1.css";
 import LogoLarge from "../logoLarge/logoLarge";
@@ -5,8 +6,10 @@ import imgLogo from "src/assets/Apokalypsiis.png";
 import humoRight from "src/assets/HUMO_DERECHA.png";
 import humoLeft from "src/assets/HUMO_IZQUIERDO.png";
 import Video from "src/components/video/video";
+import { useOffset } from "src/components/useOffset";
 
 const Section1 = (props) => {
+    const offset = useOffset();
 
   return (
     <div className="section1">
@@ -14,12 +17,18 @@ const Section1 = (props) => {
         <img
             className="humoRight"
             src={humoLeft}
-            alt="Logo"            
+            alt="Logo"  
+            style={{
+                transform: `translateY(-${offset * 0.1}px)`
+            }}          
         />
         <img
             className="humoLeft"
             src={humoRight}
-            alt="Logo"            
+            alt="Logo"  
+            style={{
+                transform: `translateY(-${offset * 0.1}px)`
+            }}           
         />
         <Grid
             container

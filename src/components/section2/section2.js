@@ -8,15 +8,21 @@ import letra1 from "src/assets/LETRA_DE_CANCION_1.png";
 import papelViejo from "src/assets/PAPEL_VIEJO.png";
 import textContent1 from "src/assets/TEXTO_CON_REALTADOR.png";
 import rocaIzq from "src/assets/ROCA_IZQ.png";
+import { useOffset } from "src/components/useOffset";
+
 
 const Section2 = (props) => {
+    const offset = useOffset();
 
   return (
     <div className="section2 p-relative">
         <img
             className="humoCentro"
             src={humoCentro}
-            alt="Logo"            
+            alt="Logo"  
+            style={{
+                transform: `translate( -50%,-${offset * 0.2}px)`
+            }}           
         />
         <Grid
             container
@@ -29,7 +35,10 @@ const Section2 = (props) => {
                     <img
                         className="brujula"
                         src={brujula}
-                        alt="Logo"            
+                        alt="Logo"   
+                        style={{
+                            transform: `translateY(-${offset * 0.1}px)`
+                        }}          
                     />
                     
                     <span className="Neutro-Shorty-que-re">
@@ -51,7 +60,10 @@ const Section2 = (props) => {
                     <img
                         className="papelViejo"
                         src={papelViejo}
-                        alt="Logo"            
+                        alt="Logo" 
+                        style={{
+                            transform: `translateY(-${offset * 0.1}px)`
+                        }}            
                     />
                     <img
                         className="neutro"
@@ -80,7 +92,10 @@ const Section2 = (props) => {
             <img
                 className="rocaIzq"
                 src={rocaIzq}
-                alt="Logo"            
+                alt="Logo" 
+                style={{
+                    transform: `translateY(-${offset * 0.1}px) rotate(-${offset * 0.1}deg)`
+                }}             
             />
                 <img
                     className="textContent1"

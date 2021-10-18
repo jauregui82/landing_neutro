@@ -3,9 +3,11 @@ import "src/components/section3/section3.css";
 import letraCancion2 from "src/assets/LETRA_DE_CANCION_2.png";
 import letraCancion4 from "src/assets/LETRA_DE_CANCION_3.png";
 import rocaDer from "src/assets/ROCA_DER.png";
+import { useOffset } from "src/components/useOffset";
 
 
 const Section3 = (props) => {
+    const offset = useOffset();
 
   return (
     <div className="section3 p-relative">
@@ -32,7 +34,10 @@ const Section3 = (props) => {
                     <img
                         className="rocaDer"
                         src={rocaDer}
-                        alt="Logo"            
+                        alt="Logo"   
+                        style={{
+                            transform: `translateY(-${offset * 0.1}px) rotate(-${offset * 0.1}deg)`
+                        }}          
                     /> 
                 </div>
             </Grid>

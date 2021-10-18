@@ -1,0 +1,57 @@
+.section3 {
+    position: relative;
+    width: 100%;
+    height: 548px;
+    padding-top: 38px;
+    background-image: url('src/assets/FONDO_FILM.png');
+    background-size: cover;
+}
+
+.content-letra-cancion-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 594px;
+}
+
+img.letraCancion2{
+  width: 100%;
+  max-width: 207px;
+  height: 354px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+img.letraCancion4{
+  width: 100%;
+  max-width: 449.5px;
+  height: 382.5px;
+  position: absolute;
+  left: 55%;
+  top: 86%;
+  transform: translate(-50%, -50%);
+}
+
+img.rocaDer{
+  width: 100%;
+  max-width: 255px;
+  height: 231px;
+  z-index: 2;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.content-video-3{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 542px;
+    height: 301.5px;
+    background-color: #000;
+    z-index: 3;
+}

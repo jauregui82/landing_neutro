@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.landing-logo {
+  justify-content: center;
+  margin: 0;
+}

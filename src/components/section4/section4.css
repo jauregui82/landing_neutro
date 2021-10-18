@@ -1,0 +1,81 @@
+.pre-section4 {
+  background-image: url('src/assets/FONDO_FILM.png');
+  background-size: cover;
+  background-position-y: 108%;
+  background-repeat:no-repeat;
+  position: inherit;
+}
+.section4 {
+    background-image: url('src/assets/PAPER_CUT_439.png');
+    width: 100%;
+    height: 100%;
+    max-height: 440px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: inherit;
+    z-index: 2;
+    position: relative;
+}
+
+.content-cancion-5{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 504px;
+  display: flex;
+}
+img.letraCancion5{
+    width: 100%;
+    max-width: 207px;
+    height: 354px;
+    z-index: 1;
+    position: inherit;
+    left: 1.2%;
+    top: 12%;
+  /* transform: translate(-50%, -50%); */
+  /* display: block; */
+}
+.papelTexture{
+  max-width: 384px;
+  width: 100%;
+  position: inherit;
+  top: -5%;
+  z-index: 3;
+}
+.cintaAdhesiva{
+  width: 100%;
+  max-width: 123.7px;
+  position: absolute;
+  bottom: -6%;
+  left: 37%;
+  z-index: 3;
+}
+
+.bigSotoShortyFoto{
+  width: 100%;
+  max-width: 302px;
+  max-height: 384px;
+  position: inherit;
+  left: 7%;
+  top: 11%;
+  z-index: 2;
+}
+img.letraCancion5-right{
+  width: 100%;
+  max-width: 207px;
+  height: 354px;
+  z-index: 1;
+  position: inherit;
+  left: -12.9%;
+  top: 12%;
+}
+.resaltadorNeutro{
+  width: 100%;
+  max-width: 133px;
+  height: 100%;
+  max-height: 22.5px;
+  position: absolute;
+  left: 5%;
+  top: 5.2%;
+  z-index: 3;
+}

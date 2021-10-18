@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: 39px;
+  padding: 7px 0px 7px 0px;
+  object-fit: contain;
+  background-image: linear-gradient(to bottom, #000 -11%, rgba(0, 0, 0, 0));
+  position: absolute;
+  z-index: 2;
+}
+
+.btn-menu{
+  font-family: SFProDisplay;
+  font-size: 15px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+
+.content-btn-menu{
+  margin-left: 53px;
+}

@@ -38,10 +38,10 @@ const Section1 = (props) => {
             spacing={10}
             className="content-section-1"
         >
-            <Grid item className={"z-index-1"}>
+            <Grid item className={"content-logo-1"}>
                 <LogoLarge/>
             </Grid>
-            <Grid item className={"z-index-1"}>
+            <Grid item className={"content-text-1"}>
                 <div className="p-relative">
                     <img
                         className={"imgLogo1"}

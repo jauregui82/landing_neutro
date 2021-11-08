@@ -169,3 +169,22 @@
     left: -208px;
     top: -48px;
   }
+
+
+  @media (max-width: 1092px) {
+    .section2 {
+      height: 637px;
+    }
+  }
+  @media (max-width: 900px) {
+    .section2 {
+      height: 451px;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .section2 {
+      background-image: none;
+      height: 500px;
+    }
+  }

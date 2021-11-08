@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <header className={`header `}>
       <div className="content-btn-menu">
-        <Grid  container spacing={12} justifyContent={"center"}>
+        <Grid  container justifyContent={"space-between"}>
           <Grid item>
             <p className="btn-menu">
               Galeria

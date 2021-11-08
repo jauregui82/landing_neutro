@@ -23,9 +23,11 @@
     color: #fff;
 }
 
-.content-section-1 {
-    /* width: 100%!important;
-    margin-left: 0; */
+.content-logo-1 {
+    z-index: 1;
+}
+.content-text-1 {
+    z-index: 1;
 }
 
 .gradient-img-1 {
@@ -52,3 +54,15 @@
     z-index: 2;
     right: 0;
 }
+
+@media (max-width: 1024px) {
+    .content-text-1 {
+      z-index: 3;
+    }
+  }
+
+@media (max-width: 770px) {
+    .content-text-1 {
+      z-index: 2;
+    }
+  }

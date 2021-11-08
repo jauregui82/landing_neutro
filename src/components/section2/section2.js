@@ -29,8 +29,8 @@ const Section2 = (props) => {
             spacing={4}
             className="content-section-2"
         >
-            <Grid item sm={3}/>
-            <Grid className="p-0" item sm={3} container justifyContent="flex-end">
+            <Grid item xs={false} sm={1} md={2} />
+            <Grid className="p-0" item xs={11} sm={5} md={4} container justifyContent="flex-end">
                 <div className={"content-text-2 p-relative"}>
                     <img
                         className="brujula"
@@ -55,7 +55,7 @@ const Section2 = (props) => {
 
                 </div>
             </Grid>
-            <Grid item sm={6}>
+            <Grid item xs={12} sm={6}>
                 <div className="content-cantantes-2 p-relative">
                     <img
                         className="papelViejo"

@@ -12,6 +12,7 @@ import Section2Mobile from './components/section2-mobile/section2-mobile';
 import Section4Mobile from './components/section4-mobile/section4-mobile';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import SectionCarousel from './components/carousel/carousel';
 
 function App() {
   const theme = useTheme();
@@ -25,7 +26,8 @@ function App() {
       <Section3/>
       {matches ? <Section4/> : <Section4Mobile />}
       <Section5/>
-      <Section6/>
+      <SectionCarousel/>
+      {/* <Section6/> */}
 
     </Main>
   );

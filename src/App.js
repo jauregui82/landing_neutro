@@ -26,7 +26,7 @@ function App() {
       <Section3/>
       {matches ? <Section4/> : <Section4Mobile />}
       <Section5/>
-      <SectionCarousel/>
+      {matches ? <Section6/> : <SectionCarousel />}
       {/* <Section6/> */}
 
     </Main>

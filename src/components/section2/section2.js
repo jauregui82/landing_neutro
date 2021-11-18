@@ -9,10 +9,14 @@ import papelViejo from "src/assets/PAPEL_VIEJO.png";
 import textContent1 from "src/assets/TEXTO_CON_REALTADOR.png";
 import rocaIzq from "src/assets/ROCA_IZQ.png";
 import { useOffset } from "src/components/useOffset";
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 const Section2 = (props) => {
     const offset = useOffset();
+    const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('sm'));
 
   return (
     <div className="section2 p-relative">
@@ -28,9 +32,10 @@ const Section2 = (props) => {
             container
             spacing={4}
             className="content-section-2"
+            direction={matches ? "row" : "column-reverse"}
         >
             <Grid item xs={false} sm={1} md={2} />
-            <Grid className="p-0" item xs={11} sm={5} md={4} container justifyContent="flex-end">
+            <Grid className="p-0" item xs={12} sm={5} md={4} container justifyContent="flex-end">
                 <div className={"content-text-2 p-relative"}>
                     <img
                         className="brujula"

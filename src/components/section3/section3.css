@@ -55,3 +55,13 @@ img.rocaDer{
     background-color: #000;
     z-index: 3;
 }
+
+@media (max-width: 600px) {
+  .section3 {
+    padding-top: 0px;
+    height: 405px;
+  }
+  .content-letra-cancion-2{
+    display: none;
+  }
+}

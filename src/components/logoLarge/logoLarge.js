@@ -12,6 +12,7 @@ const LogoLarge = (props) => {
         alt="Logo"
         width={"354"}
         height={"184"}
+        className={"logo-large-1"}
       />
     </div>
   );

@@ -3,3 +3,11 @@
   align-items: center;
   z-index: 2;
 }
+
+
+@media (max-width: 425px) {
+  .logo-large-1{
+    max-width: 300px;
+    height: auto;
+  }
+}

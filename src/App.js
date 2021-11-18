@@ -8,16 +8,22 @@ import Section3 from './components/section3/section3';
 import Section4 from './components/section4/section4';
 import Section5 from './components/section5/section5';
 import Section6 from './components/section6/section6';
+import Section2Mobile from './components/section2-mobile/section2-mobile';
+import Section4Mobile from './components/section4-mobile/section4-mobile';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function App() {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('sm'));
   return (
     <Main>
       {/* section 1 */}
       {/* <Video/> */}
       <Section1/>
-      <Section2/>
+      {matches ? <Section2/> : <Section2Mobile />}
       <Section3/>
-      <Section4/>
+      {matches ? <Section4/> : <Section4Mobile />}
       <Section5/>
       <Section6/>
 
